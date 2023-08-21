@@ -30,6 +30,13 @@ fun main() {
 
     println("$name has $balanceMainAccount euros in his main account and has $balanceSavingsAccount euros in his savings account")
     println("Max possible euros he can store in his main account is $maxPossibleShortValue")
-    println("Minimum possible euros he can be in debt in his main account is $minPossibleShortValue")
+    println("Minimum possible euros he can be in debt in his main account is $minPossibleShortValue\n")
+
+    val maxPossibleLongValue = Long.MAX_VALUE
+    val minPossibleLongValue = Long.MIN_VALUE
+    //Assigning a bigger value than 9223372036854775807 or a value less than -9223372036854775808 is not possible using Long data type
+
+    println("There are more than $maxPossibleLongValue stars in the observable universe")
+    println("And there are definitely more than $minPossibleLongValue stars in the observable universe. Or we wouldn't exist lol")
 
 }
