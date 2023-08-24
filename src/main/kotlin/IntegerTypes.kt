@@ -1,3 +1,9 @@
+//Choosing different integer types are helpful as each type takes up a certain amount of memory. Depending on what data type is used, memory can be saved.
+//Int: 32 bits
+//Byte: 8 bits
+//Short: 16 bits
+//Long: 64 bits
+
 fun main() {
 
     var username: String = "BlueArcade45"
