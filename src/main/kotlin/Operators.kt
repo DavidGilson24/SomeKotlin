@@ -25,6 +25,36 @@ fun main() {
 
     //Same case here using decrement
     println("x = ${x--}")
-    println("x = ${--x}")
+    println("x = ${--x}\n")
+
+    val isTalking = true
+    val isActive = true
+
+    // && is AND operator
+    if (isTalking && isActive)
+    {
+        println("User is active")
+        println("User is typing...\n")
+    }
+    else if (isActive)
+    {
+        println("User is active\n")
+    }
+    else
+    {
+        println("User is offline\n")
+    }
+
+    val num1 = 4
+    val num2 = 5
+
+    if (num1 == 4 || num2 == 2)
+    {
+        println("Condition is true")
+    }
+    else
+    {
+        println("Condition is false")
+    }
 
 }
